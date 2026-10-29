@@ -6,186 +6,309 @@
   <br>
 </h1>
 
-<h4 align="center">Property search, renting, buying, investment, development and lettings, for Linux, Windows 11 and Android.</h4>
+<h4 align="center">Find a home to rent or buy, check the numbers and the area, and keep track of homes you let.</h4>
 
 <p align="center">
-  <a href="https://github.com/sudharamachandranrajeev/graha-anveshana/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/graha-anveshana?include_prereleases&color=c8e64a&labelColor=23251d" alt="Release"></a>
-  <img src="https://img.shields.io/badge/platforms-Linux%20%7C%20Windows%20%7C%20Android-555" alt="Platforms">
-  <img src="https://img.shields.io/badge/Flutter-3.47-02569B?logo=flutter" alt="Flutter">
-  <img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma">
+  <a href="https://github.com/sudharamachandranrajeev/graha-anveshana/releases"><img src="https://img.shields.io/github/v/release/sudharamachandranrajeev/graha-anveshana?include_prereleases&color=c8e64a&labelColor=23251d&label=download" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/works%20on-Linux%20%7C%20Windows%20%7C%20Android-555" alt="Works on Linux, Windows and Android">
+  <img src="https://img.shields.io/badge/your%20data-encrypted-2e7d32" alt="Your data is encrypted">
+  <a href="https://github.com/sudharamachandranrajeev/brahma"><img src="https://img.shields.io/badge/part%20of-Brahma-8a5cf6" alt="Part of Brahma"></a>
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#brahma-watch-phone-alerts">Brahma Watch</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#-what-it-does">What it does</a> •
+  <a href="#-get-started">Get started</a> •
+  <a href="#-how-it-works">How it works</a> •
+  <a href="#-faq-and-troubleshooting">FAQ</a> •
+  <a href="#%EF%B8%8F-for-developers">For developers</a>
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/hero.png" alt="Graha Anveshana screenshots" width="100%">
+  <img src="docs/screenshots/hero.png" alt="Graha Anveshana on a desktop window and two phones" width="100%">
 </p>
 
-Graha Anveshana is part of **Brahma**, a suite of life-management apps that share one encrypted
-account. Status: early releases, for testing. Local data lives in an encrypted SQLite database
-(SQLite3MultipleCiphers); sync through your own PocketBase server is optional and end-to-end
-encrypted.
+Graha Anveshana is for people hunting for a home in the UK, and for small landlords. It keeps
+every home you are looking at, every call to an agent and every sum in one place, on your own
+devices. Status: **early test releases**. Tax figures are a starting point for your own checks,
+not advice.
 
-## Key Features
+## ✨ What it does
 
-* **Hunt** – every property you are considering, to rent or to buy, grouped by stage (new,
-  shortlisted, enquired, viewing, applied, agreed). Add one from a PropertyPal link (an advert or
-  a whole search page) or by hand. Distances are measured from your home point; adverts that go
-  let or sold are flagged.
-* **Contact** – call, text, WhatsApp or e-mail agents and landlords from the app; each is logged
-  against the property and moves it along. A ready-made first enquiry (is it free, what next, when
-  to view) is signed with your details from Settings. Viewings and follow-ups are kept with it.
-* **Alerts** – saved searches run in the cloud on [Brahma Watch](#brahma-watch-phone-alerts), which
-  pushes new listings, price drops and status changes to your phone through ntfy. The app sends it
-  your searches and pulls in what it found.
-* **Invest** – appraisals with current UK rules:
-  * *Buy-to-let:* purchase tax with the surcharges, yields, cash flow, Section 24, company
-    ownership, lender stress test, break-even rent, equity over time.
-  * *Buying a home:* affordability, stressed payments, cost of owning against renting, letting later.
-  * *Small developments:* GDV, build, finance, profit and residual land value.
-  * Save appraisals to compare.
-* **Research** – a report for any UK postcode from open data: UK House Price Index for the council
-  area and the nation, street-level crime (police.uk; not Scotland) and sold prices (Price Paid;
-  England and Wales). Links for flood risk, EPCs, planning, broadband and rents, per nation. A
-  purchase tax calculator (SDLT, LBTT, LTT) and a development checklist.
-* **Lettings** – tenancies as landlord or tenant, rent due and received with arrears, deposits,
-  and landlord checks (gas, EICR, EPC, alarms, registration...) that come round again when done.
-* **Instrument-panel look** – charcoal canvas with faint contour lines, hairline cards, one lime
-  accent, big tabular figures; light and dark; Inter bundled.
-* **Private by default** – data stays on the device, encrypted, until you turn on sync. An account
-  made in any Brahma app works in all of them.
-
-Tax rates are as of October 2026 and are a starting point for your own checks, not advice.
-
-## Screenshots
-
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/hunt-light.png" width="200"><br><sub>Hunt</sub></td>
-    <td align="center"><img src="docs/screenshots/invest-light.png" width="200"><br><sub>Invest (buy-to-let)</sub></td>
-    <td align="center"><img src="docs/screenshots/lettings-dark.png" width="200"><br><sub>Lettings (dark)</sub></td>
-    <td align="center"><img src="docs/screenshots/property-dark.png" width="200"><br><sub>A property (dark)</sub></td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="docs/screenshots/hunt-desktop.png" width="100%"><br><sub>Hunt on the desktop</sub>
-</p>
+- 🏠 **Every home in one list** – homes to rent or buy, grouped by stage: new, shortlisted,
+  enquired, viewing, applied, agreed. Add one from a PropertyPal link or type it in.
+- 📞 **Contact agents in one tap** – call, text, WhatsApp or e-mail. Each contact is logged, and a
+  ready-made first enquiry carries your details.
+- 🔔 **Alerts on your phone** (optional) – your saved searches run on your own free cloud helper,
+  Brahma Watch. New homes, price drops and "let" or "sold" notices reach your phone.
+- 🧮 **Is it worth it?** – sums for buy-to-let, buying your own home and small developments, with
+  current UK purchase tax, mortgage stress tests and rent you need to break even.
+- 🗺️ **Know the area** – type any UK postcode for house prices, street crime and recent sales,
+  plus links for flood risk, energy ratings, planning and broadband.
+- 📋 **Lettings made simple** – tenancies, rent due and paid, deposits, and landlord safety checks
+  that remind you when they come round again.
+- 🔒 **Private by default** – data is encrypted on the device. Sync is optional, and one account
+  works in every Brahma app.
+- 🎨 **Easy to read** – big clear figures, light and dark themes, and a hint beside every
+  control.
 
 <details>
-<summary>More screenshots</summary>
+<summary>Full list of what the sums and reports cover</summary>
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/hunt-dark.png" width="200"><br><sub>Hunt (dark)</sub></td>
-    <td align="center"><img src="docs/screenshots/invest-dark.png" width="200"><br><sub>Invest (dark)</sub></td>
-    <td align="center"><img src="docs/screenshots/lettings-light.png" width="200"><br><sub>Lettings</sub></td>
-    <td align="center"><img src="docs/screenshots/property-light.png" width="200"><br><sub>A property</sub></td>
-  </tr>
-</table>
-
-<img src="docs/screenshots/lettings-desktop.png" width="100%"><br><sub>Lettings on the desktop</sub>
+| Area | What is included |
+| --- | --- |
+| Buy-to-let | Purchase tax with surcharges, gross and net yield, cash flow, Section 24, company ownership, lender stress test, break-even rent, equity over time |
+| Buying a home | Affordability, stressed payments, owning against renting, letting it out later |
+| Development | Gross development value, build and finance costs, profit, residual land value (the most you could pay for the land) |
+| Purchase tax | Stamp Duty (England, Northern Ireland), LBTT (Scotland), LTT (Wales), rates as of October 2026 |
+| Area report | UK House Price Index for the council area and nation, street-level crime (not Scotland), sold prices (England and Wales) |
+| Landlord checks | Gas safety, electrical report (EICR), energy certificate (EPC), smoke and carbon monoxide alarms, registration and more |
 
 </details>
 
-All screenshots are rendered from the current code with made-up homes and people
-(`test/screenshots_test.dart`).
+## 📸 Screenshots
 
-## How To Use
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/hunt-light.png" alt="Hunt" width="220"><br><sub>Hunt</sub></td>
+    <td align="center"><img src="docs/screenshots/invest-light.png" alt="Invest, buy-to-let sums" width="220"><br><sub>Invest (buy-to-let)</sub></td>
+    <td align="center"><img src="docs/screenshots/lettings-dark.png" alt="Lettings in dark mode" width="220"><br><sub>Lettings (dark)</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/property-light.png" alt="One home's page" width="220"><br><sub>A home</sub></td>
+    <td align="center"><img src="docs/screenshots/hunt-dark.png" alt="Hunt in dark mode" width="220"><br><sub>Hunt (dark)</sub></td>
+    <td align="center"><img src="docs/screenshots/invest-dark.png" alt="Invest in dark mode" width="220"><br><sub>Invest (dark)</sub></td>
+  </tr>
+</table>
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and
-[Flutter](https://flutter.dev) 3.47 installed:
+<p align="center">
+  <img src="docs/screenshots/hunt-desktop.png" alt="Hunt on a desktop window" width="80%"><br>
+  <sub>Hunt on a desktop window</sub>
+</p>
+
+<sub>All screenshots show made-up homes and people, rendered from the app's code.</sub>
+
+## 🚀 Get started
+
+### Step 1 – Download
+
+Open the [releases page](https://github.com/sudharamachandranrajeev/graha-anveshana/releases)
+and, under the newest release, pick the file for your device:
+
+| Your device | File to download | Works on |
+| --- | --- | --- |
+| 🐧 Linux computer | `Graha-Anveshana-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (Intel/AMD 64-bit) |
+| 🪟 Windows computer | `Graha-Anveshana-<version>-windows-x64-setup.exe` | Windows 10 and 11 |
+| 🤖 Android phone | `Graha-Anveshana-<version>-android.apk` | Android 7 and newer |
+
+Each release also has `SHA256SUMS.txt`, a list of fingerprints to check the files are genuine.
+
+### Step 2 – Install
+
+<details>
+<summary><b>🐧 Linux</b></summary>
+
+1. Open a terminal in the folder where the download landed.
+2. Unpack it and run the installer as your normal user (not `sudo`):
+   ```sh
+   tar -xzf Graha-Anveshana-*-linux-x64.tar.gz
+   cd anveshana-*-linux-x64 && ./install.sh
+   ```
+3. Open **Graha Anveshana** from your app menu.
+
+It installs for your user only. It needs GTK 3, libsecret and the desktop keyring (the app that
+stores passwords) running. To remove it later: `./install.sh --uninstall`. Your data stays.
+
+</details>
+
+<details>
+<summary><b>🪟 Windows</b></summary>
+
+1. Double-click `Graha-Anveshana-<version>-windows-x64-setup.exe`. No admin rights needed.
+2. Windows may say *"Windows protected your PC"*. This appears because the app isn't paid-signed
+   yet, not because it is harmful. Click **More info → Run anyway**.
+3. Follow the installer, then open **Graha Anveshana** from the Start menu.
+
+Prefer no installer? Download `…-windows-x64-portable.zip`, unzip it anywhere and run
+`anveshana.exe`.
+
+</details>
+
+<details>
+<summary><b>🤖 Android</b></summary>
+
+1. Open the downloaded `.apk` on your phone.
+2. If Android asks, allow installs from your browser or file manager. This is normal for apps
+   from outside the Play Store.
+3. Tap **Install**, then **Open**.
+
+Newer versions install over the top and keep your data.
+
+</details>
+
+### Step 3 – First launch
+
+The app opens on **Hunt**. Every screen works empty, so there is nothing to fill in first.
+
+1. **Add your details**: open **Settings → Your details → Edit**. Your name, phone and household
+   go into enquiries you send.
+2. **Set a home point**: **Settings → Home point → Set**, then type a postcode. Distances are
+   measured from here.
+3. **Add a home**: on **Hunt**, tap **Add** and paste a PropertyPal link, or type the home in.
+4. **Contact the agent** from the home's page. The home moves to the next stage by itself.
+
+> [!NOTE]
+> The next release opens with a short welcome. It asks where your data should live: on this
+> device only, or synced through a home or cloud server. It also adds an app lock (PIN or
+> fingerprint), a tip at the top of each screen, **Ask AI** for help finding your way, and
+> **Report a problem**.
+
+### Step 4 (optional) – Phone alerts with Brahma Watch
+
+Brahma Watch runs your saved searches on your own free Cloudflare account. It alerts your phone
+through [ntfy](https://ntfy.sh), a free notification app. You need a computer with Git and
+Node.js for about ten minutes.
+
+1. On the computer, run:
+   ```sh
+   git clone https://github.com/sudharamachandranrajeev/brahma.git
+   cd brahma/watch && npm install
+   npx wrangler login   # once: allow your Cloudflare account in the browser
+   npm run setup        # prints the Watch address, its token and an ntfy topic
+   ```
+2. On your phone, install ntfy and subscribe to that topic.
+3. In the app, open **Settings → Brahma Watch → Set up** and paste the address and token.
+4. On **Searches**, tap **Add** for each PropertyPal search, then **Send to Watch**. Tap
+   **Test alert** to check your phone gets it.
+
+### Step 5 (optional) – Use it on more than one device
+
+Turn on sync in **Settings → Sync**. You need a sync server you own; the
+[Brahma sync server guide](https://github.com/sudharamachandranrajeev/brahma/tree/main/server)
+walks you through it. **Write down the recovery key** it shows and keep it safe.
+
+## 🧭 How it works
+
+```mermaid
+flowchart LR
+    P["📱 Your phone"] -->|"locked before it leaves"| S[("🏠 Your sync server")]
+    L["💻 Your computer"] -->|"locked before it leaves"| S
+    W["☁️ Brahma Watch<br/>on your Cloudflare"] -->|"new homes"| L
+    W -->|"alerts via ntfy"| P
+    O["🌍 Public data<br/>prices, crime, postcodes"] -->|"area reports"| L
+```
+
+- **On each device**, the app keeps your data in an encrypted database. Without your key it is
+  unreadable.
+- **Sync is optional.** With it, each device locks its changes before sending them. The server
+  cannot read them.
+- **Brahma Watch** checks your searches on a schedule. The app sends it your searches and
+  brings in what it found each time it starts.
+- **What leaves the device on its own**: postcodes (to postcodes.io and public data sites), the
+  PropertyPal links you add, and Watch requests. Nothing else unless you turn on sync.
+
+> [!IMPORTANT]
+> Your password and recovery key are the only ways to unlock synced data. If you lose both, nobody
+> can recover it. On Android, uninstalling the app deletes its data, so sync first.
+
+## ❓ FAQ and troubleshooting
+
+<details>
+<summary><b>Do I need an account or the internet?</b></summary>
+
+No account. The lists, sums and lettings work offline on one device. Adding a PropertyPal link,
+area reports and alerts need the internet.
+</details>
+
+<details>
+<summary><b>Windows says the app might be unsafe</b></summary>
+
+The build isn't code-signed (a paid certificate). Click **More info → Run anyway**. Check the file
+against `SHA256SUMS.txt` on the release if you want to be sure it is genuine.
+</details>
+
+<details>
+<summary><b>Linux: the app stops at start and talks about a missing key</b></summary>
+
+The key that unlocks your data lives in the desktop keyring. Make sure your keyring app is
+running and unlocked, then start the app again.
+</details>
+
+<details>
+<summary><b>Which property sites work?</b></summary>
+
+Links and saved searches work with PropertyPal. For a home from any other site, add it by hand on
+**Hunt → Add**.
+</details>
+
+<details>
+<summary><b>Where is my data stored?</b></summary>
+
+Linux: `~/.local/share/dev.brahma.anveshana`. Windows: in your user's AppData folder. Android:
+inside the app. Uninstalling on Linux or Windows leaves it in place.
+</details>
+
+<details>
+<summary><b>I saved cars in version 0.2.0. Where are they?</b></summary>
+
+Cars moved to their own app, [Vahana Anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana).
+Add them again there from their advert links.
+</details>
+
+## 🛠️ For developers
+
+<details>
+<summary>Build from source, test and release</summary>
+
+You need [Git](https://git-scm.com) and [Flutter](https://flutter.dev) 3.47.
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/sudharamachandranrajeev/graha-anveshana
+git clone https://github.com/sudharamachandranrajeev/graha-anveshana
+cd graha-anveshana
+flutter pub get
+flutter run -d linux        # or windows, or an Android device
 
-# Go into the repository
-$ cd graha-anveshana
-
-# Install dependencies
-$ flutter pub get
-
-# Run the app
-$ flutter run -d linux
+flutter analyze && flutter test                                       # check and test
+GRAHA_SHOTS=/tmp/shots flutter test test/screenshots_test.dart        # render the screenshots
+scripts/make-icons.sh                                                 # app icons from branding/anveshana.svg
 ```
 
-`brahma_core` comes from the [brahma](https://github.com/sudharamachandranrajeev/brahma)
-repository. To work on both at once, add a `pubspec_overrides.yaml` (ignored by git):
+- `brahma_core` comes from the [brahma](https://github.com/sudharamachandranrajeev/brahma) repo.
+  To work on both at once, add a `pubspec_overrides.yaml` (ignored by git) with
+  `dependency_overrides: brahma_core: path: ../brahma/core`.
+- CI runs analyse and test on each push. A `v*` tag builds, smoke-tests and publishes the
+  Android, Windows and Linux builds (`.github/workflows/release.yml`).
+- Changes per version: [CHANGELOG.md](CHANGELOG.md).
 
-```yaml
-dependency_overrides:
-  brahma_core:
-    path: ../brahma/core
-```
+</details>
 
-```bash
-# Analyse and test
-$ flutter analyze && flutter test
+<details>
+<summary>Credits</summary>
 
-# Render the screenshots (light, dark and desktop) into a folder
-$ GRAHA_SHOTS=/tmp/shots flutter test test/screenshots_test.dart
-```
-
-CI runs analyse and test on each push; a `v*` tag builds, smoke-tests and publishes the Android,
-Windows and Linux builds (`.github/workflows/release.yml`). `scripts/make-icons.sh` regenerates
-the icons from `branding/anveshana.svg`.
-
-## Download
-
-Builds are on the [releases page](https://github.com/sudharamachandranrajeev/graha-anveshana/releases),
-each with `SHA256SUMS.txt`.
-
-* **Linux (x86-64):** unpack `Graha-Anveshana-<version>-linux-x64.tar.gz` and run `./install.sh`
-  (for your user only; `./install.sh --uninstall` removes it). Needs GTK 3, libsecret and a running
-  keyring, which holds the database key.
-* **Windows 10/11:** run `Graha-Anveshana-<version>-windows-x64-setup.exe` (no admin rights), or
-  unzip the portable build. SmartScreen warns because the build is not code-signed:
-  *More info > Run anyway*.
-* **Android 7+:** install `Graha-Anveshana-<version>-android.apk`.
-
-## Brahma Watch (phone alerts)
-
-[Brahma Watch](https://github.com/sudharamachandranrajeev/brahma/tree/main/watch) is a Cloudflare
-Worker on your own account that runs your saved searches.
-
-1. In a checkout of [brahma](https://github.com/sudharamachandranrajeev/brahma): `cd watch`,
-   `npm install`, `npx wrangler login`, `npm run setup`. It deploys the Worker to your Cloudflare
-   account and keeps its address, API token and ntfy topic in `~/.config/brahma/watch.env`.
-2. Install ntfy on your phone and subscribe to that topic.
-3. In Graha Anveshana: *Settings > Brahma Watch*, enter the address and the API token. Then
-   *Searches* to send or copy searches, and *Test alert* to check the phone gets it.
-
-## Credits
-
-This software uses the following open source packages and services:
-
-* [Flutter](https://flutter.dev) with [Riverpod](https://riverpod.dev)
-* [drift](https://drift.simonbinder.eu) over SQLite3MultipleCiphers (via brahma_core)
-* [http](https://pub.dev/packages/http), [intl](https://pub.dev/packages/intl),
+- [Flutter](https://flutter.dev) and [Riverpod](https://riverpod.dev)
+- [drift](https://drift.simonbinder.eu) over SQLite3MultipleCiphers (through brahma_core) for the
+  encrypted database
+- [http](https://pub.dev/packages/http), [intl](https://pub.dev/packages/intl),
   [url_launcher](https://pub.dev/packages/url_launcher)
-* [Inter](https://rsms.me/inter/) typeface (SIL Open Font License, `assets/fonts/Inter-OFL.txt`)
-* [PocketBase](https://pocketbase.io) for optional sync; [ntfy](https://ntfy.sh) and
-  [Cloudflare Workers](https://workers.cloudflare.com) for Brahma Watch
-* Open data: [UK House Price Index](https://www.gov.uk/government/collections/uk-house-price-index-reports),
-  [police.uk](https://data.police.uk), [Price Paid Data](https://www.gov.uk/government/collections/price-paid-data),
+- [Inter](https://rsms.me/inter/) font (SIL Open Font License, `assets/fonts/Inter-OFL.txt`)
+- [ntfy](https://ntfy.sh) and [Cloudflare Workers](https://workers.cloudflare.com) for Brahma Watch
+- Open data: [UK House Price Index](https://www.gov.uk/government/collections/uk-house-price-index-reports),
+  [police.uk](https://data.police.uk),
+  [Price Paid Data](https://www.gov.uk/government/collections/price-paid-data),
   [postcodes.io](https://postcodes.io)
+
+</details>
 
 ## Related
 
-* [Vahana Anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana) – the sibling app for cars
-* [Artha](https://github.com/sudharamachandranrajeev/artha) – Brahma's personal-finance app
-* [Udyoga](https://github.com/sudharamachandranrajeev/udyoga) – Brahma's career app
-* [Vidya](https://github.com/sudharamachandranrajeev/vidya) – Brahma's learning app
-* [brahma](https://github.com/sudharamachandranrajeev/brahma) – the shared core and Brahma Watch
+Graha Anveshana is one app in the **Brahma** family. They share one sign-in and one sync server.
+
+| App | What it does |
+| --- | --- |
+| [brahma](https://github.com/sudharamachandranrajeev/brahma) | The shared core, the all-in-one app and Brahma Watch |
+| [artha](https://github.com/sudharamachandranrajeev/artha) | Money: accounts, spending, bills and investments |
+| [vahana-anveshana](https://github.com/sudharamachandranrajeev/vahana-anveshana) | Find a car |
+| [udyoga](https://github.com/sudharamachandranrajeev/udyoga) | Career and job hunting |
+| [vidya](https://github.com/sudharamachandranrajeev/vidya) | Learning, flashcards and focus |
 
 ## License
 
