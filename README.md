@@ -36,7 +36,7 @@ not advice.
 
 - 🏠 **Every home in one list** – homes to rent or buy, grouped by stage: new, shortlisted,
   enquired, viewing, applied, agreed. Add one from a PropertyPal link or type it in.
-- 📞 **Contact agents in one tap** – call, text, WhatsApp or e-mail. Each contact is logged, and a
+- 📞 **Contact agents in one tap** – call, text, a chat app or e-mail. Each contact is logged, and a
   ready-made first enquiry carries your details.
 - 🔔 **Alerts on your phone** (optional) – your saved searches run on your own free cloud helper,
   Brahma Watch. New homes, price drops and "let" or "sold" notices reach your phone.
@@ -96,7 +96,7 @@ and, under the newest release, pick the file for your device:
 
 | Your device | File to download | Works on |
 | --- | --- | --- |
-| 🐧 Linux computer | `Graha-Anveshana-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (Intel/AMD 64-bit) |
+| 🐧 Linux computer | `Graha-Anveshana-<version>-linux-x64.tar.gz` | Ubuntu 24.04, Fedora, Arch and similar (64-bit x86) |
 | 🪟 Windows computer | `Graha-Anveshana-<version>-windows-x64-setup.exe` | Windows 10 and 11 |
 | 🤖 Android phone | `Graha-Anveshana-<version>-android.apk` | Android 7 and newer |
 
@@ -138,7 +138,7 @@ Prefer no installer? Download `…-windows-x64-portable.zip`, unzip it anywhere 
 
 1. Open the downloaded `.apk` on your phone.
 2. If Android asks, allow installs from your browser or file manager. This is normal for apps
-   from outside the Play Store.
+   from outside an app store.
 3. Tap **Install**, then **Open**.
 
 Newer versions install over the top and keep your data.
@@ -290,7 +290,7 @@ scripts/make-icons.sh                                                 # app icon
 - [http](https://pub.dev/packages/http), [intl](https://pub.dev/packages/intl),
   [url_launcher](https://pub.dev/packages/url_launcher)
 - [Inter](https://rsms.me/inter/) font (SIL Open Font License, `assets/fonts/Inter-OFL.txt`)
-- [ntfy](https://ntfy.sh) and [Cloudflare Workers](https://workers.cloudflare.com) for Brahma Watch
+- [ntfy](https://ntfy.sh) for Brahma Watch alerts
 - Open data: [UK House Price Index](https://www.gov.uk/government/collections/uk-house-price-index-reports),
   [police.uk](https://data.police.uk),
   [Price Paid Data](https://www.gov.uk/government/collections/price-paid-data),
